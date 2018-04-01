@@ -29,7 +29,7 @@ public class GetSubCommand extends TestCommand {
 
     @Override
     public List<String> tabComplete(CommandSender sender, String alias, String[] args) throws IllegalArgumentException {
-        if (args.length <= 1)
+        if (args.length <= 2)
             return new ArrayList<>(Core.getInstance().managers.getManager(Main.getInstance(), ItemManager.class).getMyItems().keySet());
         return new ArrayList<>();
     }

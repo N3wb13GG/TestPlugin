@@ -1,0 +1,3 @@
+name: TestPlugin
+version: @version@
+main: n3wb13.test.Main

@@ -1,0 +1,11 @@
+/.idea/
+/.gradle/
+/DevServer/
+/tmp/
+/libs/
+/bin/
+/build/
+gradlew
+gradlew.bat
+*.test
+*.swp
